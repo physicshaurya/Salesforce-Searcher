@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Salesforce Searcher",
+    "version": "1.0",
+    "description": "Search for information based on record ID or Object Name",
+    "icons": {
+        "128": "images/icon256.png"
+      },
+    "action": {
+        "default_icon": {             
+          "128": "images/icon256.png"   
+        },
+        "default_title": "Salesforce Searcher",   
+        "default_popup": "popup.html"  
+      }
+  }
+  
