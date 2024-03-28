@@ -1,38 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-    width: 300px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  width: 300px; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  justify-content: center; /* Not working as expected */
+}
 
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-  }
-  
-  
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-  }
-  
-  #output {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+#output {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.styled-button {
+  background-color: #1798c1; /* Salesforce Logo Colour */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 55px; /* Manual Fix will make dynamic later */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.styled-button:hover {
+  background-color: #20738d; /* Darker shade */
+}
